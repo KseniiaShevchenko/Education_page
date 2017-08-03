@@ -1,0 +1,263 @@
+@font-face {
+	font-family: 'MyriadProSemibold';
+	src: url('../fonts/MyriadProSemibold.eot');
+	src: local('MyriadProSemibold'), url('../fonts//MyriadProSemibold.woff') format('woff'), url('../fonts/MyriadProSemibold.ttf') format('truetype');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #719ebb;
+	font-family: sans-serif;
+}
+
+.container {
+	width: 80%;
+	max-width: 960px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+
+/*-----------------Decoration header--------------------*/
+
+header {
+	min-height: 126px;
+	position: relative;
+    width: 100%;
+    background: url(../images/masthead.png) no-repeat;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 12px;
+}
+
+.logo {
+	display:inline-block;
+    width: 67px;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+}
+
+.hleft {
+	display: inline-block;
+	width: 60%;
+	position: absolute;
+	top: 15px;
+	left: 100px;
+}
+
+.logo_right_div {
+	display: inline-block;
+	width: 10%;
+	position: absolute;
+	top: 15px;
+	right: 50px;
+}
+
+header h1 {
+	font: normal 24px/27px MyriadProSemibold,sans-serif;
+    color: #1a2853;
+    margin: 0px 0px 4px;
+    padding: 0px;
+    
+}
+
+header h2 {
+	font: normal 12px/19px MyriadProSemibold,sans-serif;
+    color: #7e8285;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.hleft::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+/*----------End decoration header--------------*/
+
+/*Decoration main*/
+
+main {
+	padding: 0 10px 10px;
+}
+
+/*---------Decoration first---------------*/
+
+.first {
+	background-color: #DFE6EC;
+    padding: 10px 30px;
+    margin: 0 0 24px;
+}
+
+.text_block {
+	width: 50%;
+	display: inline-block;
+}
+
+.text_block h3 {
+	font: bold normal 18px/26px Verdana,sans-serif;
+    color: #1a2853;
+    margin: 0px 0px 9px;
+    padding: 0px;
+}
+
+.text_block ul {
+	font: 12px/20px Verdana,Arial,Helvetica,sans-serif;
+    color: #1a2853;
+    margin: 0px 0px 12px;
+    padding: 0px 0px 0px 20px;
+}
+
+.card {
+	float: right;
+	width: 310px;
+	/*margin: 20px 30px 30px 30px;*/
+    box-shadow: 0px 4px 20px 5px #C1BBBB;
+    border: 5px solid #DFE6EC;
+    background-color: #fff;
+}
+
+.card img {
+    margin: -5px 0 0 -5px;
+    width: 310px;
+    height: 174px;
+}
+
+.card_text {
+    background-color: #CD1920;
+    margin: -3px -5px 0;
+    color: #fff;
+    padding: 10px 0;
+    border-top: 1px solid #fff;
+}
+
+.card_text p {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 6px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card_text h4 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/*-------------------FORM-----------------------------*/
+form p {
+	color: #C03;
+}
+/*-------------------FORM-----------------------------*/
+
+/*------------Decoration Second---------*/
+
+.second {
+    margin: 0 30px;
+}
+
+.second h4 {
+    font: bold 13px/18px Verdana,Arial,Helvetica,sans-serif;
+    color: #1a2853;
+    margin: 0px 0px 4px;
+    padding: 0px;
+}
+
+.second ul {
+    font-size: 13px;
+    line-height: 24px;
+    font: 12px/20px Verdana,Arial,Helvetica,sans-serif;
+    color: #1a2853;
+    margin: 0px 0px 12px;
+    padding: 0px 0px 0px 20px;
+}
+
+.second ul li {
+	font-size: 13px;
+    line-height: 24px;
+    font: 12px/20px Verdana,Arial,Helvetica,sans-serif;
+    color: #1a2853;
+}
+
+/*----------------Decoration Third-----------------*/
+
+.third h4 {
+	margin-bottom: 15px;
+    clear: right;
+    font: bold 13px/18px Verdana,Arial,Helvetica,sans-serif;
+    color: #1a2853;
+    margin: 0px 0px 4px;
+    padding: 0px;
+}
+
+.third img {
+	width: 96%;
+	margin: 0 2%;
+}
+
+/*------------Decoration Fourth---------*/
+
+.fourth {
+    overflow: hidden;
+    padding: 20px 30px;
+    margin: 20px 0 0;
+    background-color: #DFE6EC;
+}
+
+.left {
+	width: 48%;
+	margin: 0 2% 0 0;
+	float: left;
+	font-size: 12px;
+    line-height: 24px;
+    font: 12px/20px Verdana,Arial,Helvetica,sans-serif;
+    color: #1a2853;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.fourt::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*------------Decoration Footer----------------*/
+
+footer {
+	margin: 10px 0 0;
+}
+
+footer a {
+	display: block;
+}
+
+footer a, footer p {
+	font: 11px/18px Verdana,Arial,Helvetica,sans-serif;
+	color: #DEE5EB;
+    text-decoration: none;
+    text-align: center;
+}
