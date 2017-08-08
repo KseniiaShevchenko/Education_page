@@ -185,10 +185,10 @@ form span {
 }
 
 form input, form a, select {
-    display: block;
+    display: inline-block;
     margin: 10px 0;
     padding: 7px;
-    width: 250px;
+    width: 230px;
     height: 30px;
     border: #cfcfcf solid 1px;
     border-radius: 5px;
@@ -207,7 +207,7 @@ form a {
     line-height: 27px;
 }
 
-form input::after {
+.inputs p::after {
     content: "*";
     display: inline;
     color: #C03;
@@ -297,4 +297,18 @@ footer a, footer p {
 	color: #DEE5EB;
     text-decoration: none;
     text-align: center;
+}
+
+
+@media screen and (max-width: 320px) {
+
+    .container {
+        width: 100%;
+    }
+    
+    .first, .second, .third, .fourth, form {
+        width: 98%;
+        margin: 2%;
+    }
+
 }
